@@ -1,3 +1,8 @@
+---
+layout: post
+title: NSInternalInconsistencyException异常解决办法
+---
+
 NSArray * array=[bundle loadNibNamed:@"YJApp" owner:nil options:nil];  
 
 中 LoadNibNamed后面的字符串YJApp一定不要带后缀名，
