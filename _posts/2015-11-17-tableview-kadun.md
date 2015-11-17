@@ -4,7 +4,7 @@ title: tableView滑动时卡顿
 description: "tableView滑动时卡顿"
 tags: [ios,tableView]
 image:
-  background: 
+  background: witewall_3.png
 comments: true
 share: true
 ---
