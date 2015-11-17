@@ -1,15 +1,34 @@
 ---
 layout: page
-title: About
 permalink: /about/
+title: About Me
+tags: [about]
+image:
+  feature: abstract-12.jpg
+comments: true
+share: true
 ---
 
-Some information about you!
+{% highlight JavaScript %}
+{
+  "name": "wukuili",
+  "description": "",
+  "version": "0.0.9",
+  "keywords": ["IOS", "JS", "APP DEVELOPER"],
+  "contact": {
+    "weibo": "@wukuili",
+    "github": "@wukuili"
+  },
+  "location": "济南",
+  "workAt": "hoteamsoft Inc."
+}
+{% endhighlight %}
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+`任性的`扫一下吧~ ^_^
 
-[email@domain.com](mailto:email@domain.com)
+<figure>
+  
+  <figcaption>我的支付宝</figcaption>
+</figure>
