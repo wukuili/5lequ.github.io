@@ -10,7 +10,7 @@ share: true
 ---
 # 对于tableView滑动时卡顿的问题，
 主要原因是从缓存或是本地读取图片的时候需要耗费时间，解决方法是通过在子线程中加入如下代码即可
-{% highlight object-c %}
+{% highlight c %}
 NSData *imageData=[NSData dataWithContentsOfURL:[NSURL URLWithString:app.icon]];
 UIImage *image=[UIImage imageWithData:imageData];
 {% endhighlight %}
